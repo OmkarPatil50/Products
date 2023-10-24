@@ -1,0 +1,21 @@
+.main-page {
+  display: flex;
+}
+
+.id-section,
+.product-name-section,
+.product-weight-section,
+.price-section,
+.calories-section,
+.ingredients-section {
+  display: flex;
+  flex-direction: column;
+}
+
+ul {
+  list-style: none;
+}
+
+.ingredients-list {
+  display: flex;
+}
